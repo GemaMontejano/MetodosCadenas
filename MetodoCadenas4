@@ -1,0 +1,16 @@
+
+public class MetodosCadenas4 {
+
+	public static void main(String[] args) {
+		//
+		String cadena = "ponemos la primera letra de cada palabra en mayúsculas";
+		String nuevacadena = "";
+		for (String palabra : cadena.split(" ")) {
+			nuevacadena += palabra.substring(0, 1).toUpperCase() + palabra.substring(1, palabra.length()).toLowerCase()
+					+ " ";
+		}
+		nuevacadena = nuevacadena.trim();
+		System.out.println(nuevacadena);
+	}
+
+}
