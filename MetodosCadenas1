@@ -1,0 +1,19 @@
+public class MetodosCadenas1 {
+
+	public static void main(String[] args) {
+		// 1.- Método masLarga Le pasamos dos cadenas y nos devuelve la de mayor
+		// longitud.
+		String str1 = "Hola, me llamo Pepe";
+		String str2 = "Hoy es jueves";
+		int cad1 = str1.length();
+		int cad2 = str2.length();
+
+		if (cad1 > cad2) {
+			System.out.println(str1);
+		} else {
+			System.out.println(str2);
+		}
+
+	}
+
+}
