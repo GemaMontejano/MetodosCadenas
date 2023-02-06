@@ -1,0 +1,14 @@
+
+public class MetodosCadenas2 {
+
+	public static void main(String[] args) {
+		// Método repetirCadena: Le pasamos una cadena y un entero y nos devuelve la
+		// cadena repetida n veces
+
+		String string = "Ejercicio de repetición";
+
+		int count = 3;
+
+		System.out.println("Nuestra cadena repetida es :" + string.repeat(count));
+	}
+}
