@@ -1,0 +1,21 @@
+
+public class MetodosCadenas3 {
+
+	public static void main(String[] args) {
+		// Método vocales: Le pasamos una cadena y nos dice cuantas vocales tiene
+		// (podemos usar el contarChar)
+
+		String contarVocales = "Hoy vamos a contar las vocales de nuestra cadena";
+
+		int vocales = 0;
+		char vocal;
+		for (int i = 0; i < contarVocales.length(); i++) {
+			if ((contarVocales.charAt(i) == 'a') || (contarVocales.charAt(i) == 'e') || (contarVocales.charAt(i) == 'i')
+					|| (contarVocales.charAt(i) == 'o') || (contarVocales.charAt(i) == 'u')) {
+				vocales++;
+
+			}
+		}
+		System.out.println("Hay " + vocales + " vocales en nuestra frase de ejemplo");
+	}
+}
